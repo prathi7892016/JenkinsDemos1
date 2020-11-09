@@ -10,4 +10,8 @@ public String sayHello() {
 	return "Hello world";
 	
 }
+	//written by another developer
+	@GetMapping("/hi")
+	public String sayHi(){
+		return "Hi world";
 }
