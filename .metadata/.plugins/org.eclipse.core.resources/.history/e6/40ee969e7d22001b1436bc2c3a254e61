@@ -15,8 +15,3 @@ public String sayHello() {
 	public String sayHi(){
 		return "Hi world";
 }
-	@GetMapping("/test")
-	public String testGit() {
-		return "testing sucessfull";
-	}
-}
